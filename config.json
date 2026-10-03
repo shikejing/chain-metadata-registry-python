@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "source_id": "coingecko",
+      "kind": "file",
+      "priority": 10,
+      "order": 0,
+      "path": "data/coingecko.json",
+      "timeout_seconds": 2.0,
+      "max_retries": 2,
+      "retry_backoff_seconds": 0.1
+    },
+    {
+      "source_id": "coinmarketcap",
+      "kind": "file",
+      "priority": 5,
+      "order": 1,
+      "path": "data/coinmarketcap.json",
+      "timeout_seconds": 2.0,
+      "max_retries": 2,
+      "retry_backoff_seconds": 0.1
+    },
+    {
+      "source_id": "onchain",
+      "kind": "file",
+      "priority": 1,
+      "order": 2,
+      "path": "data/onchain.json",
+      "timeout_seconds": 2.0,
+      "max_retries": 2,
+      "retry_backoff_seconds": 0.1
+    }
+  ],
+  "refresh": {
+    "interval_seconds": 5.0,
+    "freshness_ttl_seconds": 30.0,
+    "stale_policy": "serve_stale"
+  },
+  "chain": {
+    "rollback_window_heights": 100
+  },
+  "store": {
+    "path": ".registry/snapshots",
+    "keep_snapshots": 5
+  }
+}

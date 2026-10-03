@@ -1,0 +1,4 @@
+[
+  {"entry_id": "cmc-1", "height": 100, "asset_id": "eth", "fields": {"name": "Ethereum", "symbol": "ETH", "decimals": 18}},
+  {"entry_id": "cmc-2", "height": 102, "asset_id": "btc", "fields": {"name": "Bitcoin", "symbol": "BTC", "decimals": 8}}
+]

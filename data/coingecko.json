@@ -1,0 +1,5 @@
+[
+  {"entry_id": "cg-1", "height": 100, "asset_id": "eth", "fields": {"name": "Ethereum", "symbol": "ETH", "decimals": 18}},
+  {"entry_id": "cg-2", "height": 101, "asset_id": "eth", "fields": {"name": "Ethereum", "symbol": "ETH", "decimals": 18, "logo": "eth.png"}},
+  {"entry_id": "cg-3", "height": 102, "asset_id": "btc", "fields": {"name": "Bitcoin", "symbol": "BTC", "decimals": 8}}
+]
